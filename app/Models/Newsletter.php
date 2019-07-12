@@ -16,10 +16,14 @@ class Newsletter extends Model
     */
 
     protected $table = 'newsletters';
-    // protected $primaryKey = 'id';
-    // public $timestamps = false;
+    protected $primaryKey = 'id';
+    public $timestamps = true;
     // protected $guarded = ['id'];
-    protected $fillable = [];
+    protected $fillable = [
+        'name',
+        'email',
+        'status'
+    ];
     // protected $hidden = [];
     // protected $dates = [];
 
@@ -52,4 +56,14 @@ class Newsletter extends Model
     | MUTATORS
     |--------------------------------------------------------------------------
     */
+
+    public function getStatusAttribute($value)
+    {
+        if ($value === 1) {
+            return 'Recebendo';
+        } else {
+            return 'Inativo';
+        }
+    }
+
 }

@@ -1,47 +1,602 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fc4c409-0279-4cab-b24c-152b9cb60c40" name="Default Changelist" comment="" />
+    <list default="true" id="6fc4c409-0279-4cab-b24c-152b9cb60c40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/292d99fe-ce57-47ba-a983-c19e8bf0c19f.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_ide_helper_models.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/BrinquedoCrudController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/FotoCrudController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/TemaCrudController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/BrinquedoRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/FotoRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/TemaRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Brinquedo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Foto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Tema.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/toastr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2013_04_09_062329_create_revisions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_03_27_103158_create_banners_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_03_27_103216_create_eventos_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_03_27_103222_create_contatos_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_03_27_103245_create_newsletters_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_03_27_103254_create_pacotes_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_04_10_120759_create_temas_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_04_10_120811_create_brinquedos_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_04_16_131653_create_fotos_tema_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/color-palette.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/homem-suporte.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/android-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/android-icon-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/android-icon-36x36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/android-icon-48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/android-icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/android-icon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/apple-icon-114x114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/apple-icon-120x120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/apple-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/apple-icon-152x152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/apple-icon-180x180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/apple-icon-57x57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/apple-icon-60x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/apple-icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/apple-icon-76x76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/apple-icon-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/favicon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/ms-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/ms-icon-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/ms-icon-310x310.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/ms-icon-70x70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/inovando-wide.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/mulher-suporte.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/park.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/aos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/tailwind.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/proxima-nova.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/proxima-nova.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/proxima-nova.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/proxima-nova.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/proxima-nova.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/proxima-soft-bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/proxima-soft-bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/proxima-soft-bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/proxima-soft-bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/proxima-soft-bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/aos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.mask.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/uploader-pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/packages/lightbox/css/lightbox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/packages/lightbox/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/packages/lightbox/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/packages/lightbox/images/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/packages/lightbox/images/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/packages/lightbox/js/lightbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/.tmb/l1_MjNEQjk3RkEtNThBNS00Qjk2LUI3QzYtQzlGODNGMUM1REY0LmpwZWc1555419924.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/.tmb/l1_NTAwX0ZfMjI0MTY2Mjk1X1JZbUNSczMwcHppamhSdWN0WXY1RUlqenhzekE0czlMLmpwZw1554053032.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/.tmb/l1_NTAwX0ZfMjM4NzEzMjEzX29OZHk5SmtrbUhsd0tTUkdNMTR1aTBkRWx5cGFpUUlNLmpwZw1554052959.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/.tmb/l1_NTAwX0ZfNjUxMzcwNTJfaE95QnY0Ull1cWpEc2hkSHhTamZ2MDZPRFJXZURNMGsuanBn1554053002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/.tmb/l1_NTAwX0ZfOTA2NzA1Nzhfc1lUbkZzSVdKeW0yU3ExdzJpa3IwU213aGxwWDV5Mm8uanBn1554053042.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/.tmb/l1_NTAwX0ZfOTM2NjM1NzlfRHBoaWlxQkx2VXprMUU1cGtFNm1MUUNLTHlBdnNhbXYuanBn1554053013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/.tmb/l1_NTM3NDUxNDNfMzI2MzYzMjMxNTcwNDMwXzI2NDk5MTk3ODQ4MzQ0NDgxODJfbi5qcGc1553877409.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/.tmb/l1_NTQ0NDY4ODJfMTE3MTc3MjMyNjMzNzE4N18yNTU5NzAwNDk4ODY4MjI2NjY1X24uanBn1553877382.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/.tmb/l1_QWRvYmVTdG9ja183MTAzMzAzM19QcmV2aWV3LmpwZWc1562444896.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/.tmb/l1_QWRvYmVTdG9ja18xNTg5MzMyNDJfUHJldmlldy5qcGVn1562444896.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/.tmb/l1_QWRvYmVTdG9ja18xOTgyMjYyNzZfUHJldmlldy5qcGVn1562884397.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/.tmb/l1_QWRvYmVTdG9ja18xOTgyMjkyODZfUHJldmlldy5qcGVn1562884397.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/.tmb/l1_QWRvYmVTdG9ja18yMjE4NDU5NzRfUHJldmlldy5qcGVn1562884397.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/.tmb/l1_QWRvYmVTdG9ja18yNzM3MTgxNjVfUHJldmlldy5qcGVn1562815903.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/.tmb/l1_YW1nLmpwZWc1559850836.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/.tmb/l1_ZXNjb2xhci5qcGVn1562823731.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/.tmb/l1_ZmFsZS1jb25vc2NvLTIuanBlZw1562450135.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/.tmb/l1_ZmFsZS1jb25vc2NvLTMuanBlZw1562451814.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/.tmb/l1_ZmFsZS1jb25vc2NvLmpwZWc1554727654.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/.tmb/l1_ZmFsZS1jb25vc2NvLmpwZWc1562813286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/.tmb/l1_bXVuZG9raWRzLmpwZw1554897436.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/23DB97FA-58A5-4B96-B7C6-C9F83F1C5DF4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/500_F_224166295_RYmCRs30pzijhRuctYv5EIjzxszA4s9L.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/500_F_238713213_oNdy9JkkmHlwKSRGM14ui0dElypaiQIM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/500_F_65137052_hOyBv4RYuqjDshdHxSjfv06ODRWeDM0k.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/500_F_90670578_sYTnFsIWJym2Sq1w2ikr0SmwhlpX5y2o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/500_F_93663579_DphiiqBLvUzk1E5pkE6mLQCKLyAvsamv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/53745143_326363231570430_2649919784834448182_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/54446882_1171772326337187_2559700498868226665_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/AdobeStock_158933242_Preview.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/AdobeStock_198226276_Preview.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/AdobeStock_198229286_Preview.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/AdobeStock_221845974_Preview.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/AdobeStock_273718165_Preview.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/AdobeStock_71033033_Preview.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/amg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/escolar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/fale-conosco-2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/fale-conosco.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/mundokids.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/temas/MICKEY REALEZA/23DB97FA-58A5-4B96-B7C6-C9F83F1C5DF4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/temas/MICKEY REALEZA/WhatsApp Image 2019-04-15 at 11.02.33.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/temas/MICKEY REALEZA/WhatsApp Video 2019-04-15 at 11.03.31.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/temas/MICKEY REALEZA/amg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/temas/MICKEY REALEZA/teste.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backpack/pt-br/base.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backpack/pt-br/crud.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/tema/add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/tema/detailsRow.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/all.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/components/carousel.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/components/pacote.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/components/tema.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/fale-conosco.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/inc/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/inc/navbar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/pacote.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/pacotes.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/tema.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/temas.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/template/layout.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/base/dashboard.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/crud/buttons/add_fotos.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/crud/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/iupi-festas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/iupi-festas.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpstorm.meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/.phpstorm.meta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_ide_helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/_ide_helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/BannerCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/BannerCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ContatoCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ContatoCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/EventoCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/EventoCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/NewsletterCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/NewsletterCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PacoteCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PacoteCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/PacoteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/PacoteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Banner.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Banner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Contato.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Contato.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Evento.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Evento.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Newsletter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Newsletter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Pacote.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Pacote.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/backpack/base.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/backpack/base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/.csscomb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/.csslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/badges.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/bootstrap.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/breadcrumbs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/button-groups.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/carousel.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/close.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/code.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/component-animations.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/dropdowns.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/glyphicons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/input-groups.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/jumbotron.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/labels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/list-group.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/media.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/background-variant.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/border-radius.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/center-block.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/clearfix.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/gradients.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/grid-framework.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/hide-text.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/image.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/labels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/list-group.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/nav-divider.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/nav-vertical-align.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/opacity.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/pagination.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/panels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/progress-bar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/reset-filter.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/reset-text.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/resize.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/responsive-visibility.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/size.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/tab-focus.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/table-row.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/text-emphasis.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/text-overflow.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/mixins/vendor-prefixes.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/modals.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/navbar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/navs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/normalize.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/pager.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/pagination.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/panels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/popovers.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/print.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/progress-bars.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/responsive-embed.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/responsive-utilities.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/scaffolding.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/tables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/theme.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/thumbnails.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/tooltip.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/type.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/utilities.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/bootstrap-less/wells.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/grunt/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/js/.jscsrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/js/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/js/BoxRefresh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/js/BoxWidget.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/js/ControlSidebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/js/DirectChat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/js/Layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/js/PushMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/js/TodoList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/js/Tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/.csslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/404_500_errors.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/AdminLTE-without-plugins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/AdminLTE.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/bootstrap-social.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/boxes.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/callout.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/carousel.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/control-sidebar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/datepicker.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/direct-chat.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/dropdown.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/fullcalendar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/header.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/info-box.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/invoice.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/labels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/lockscreen.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/login_and_register.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/mailbox.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/miscellaneous.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/modal.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/navs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/plugins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/print.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/products.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/profile.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/progress-bars.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/select2.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/sidebar-mini.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/sidebar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/_all-skins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/skin-black-light.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/skin-black.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/skin-blue-light.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/skin-blue.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/skin-green-light.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/skin-green.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/skin-purple-light.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/skin-purple.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/skin-red-light.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/skin-red.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/skin-yellow-light.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/skins/skin-yellow.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/small-box.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/social-widgets.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/table.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/timeline.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/treeview.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/users-list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/build/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/adminlte-options.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/advice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/browsers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/components.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/dependencies.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/download.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/implementations.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/introduction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/license.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/plugins.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/include/upgrade.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/docs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/documentation/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/UI/buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/UI/general.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/UI/icons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/UI/modals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/UI/sliders.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/UI/timeline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/calendar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/charts/chartjs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/charts/flot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/charts/inline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/charts/morris.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/examples/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/examples/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/examples/blank.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/examples/invoice-print.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/examples/invoice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/examples/lockscreen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/examples/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/examples/pace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/examples/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/examples/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/forms/advanced.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/forms/editors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/forms/general.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/layout/boxed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/layout/collapsed-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/layout/fixed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/layout/top-nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/mailbox/compose.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/mailbox/mailbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/mailbox/read-mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/tables/data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/tables/simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/adminlte/pages/widgets.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/backpack/ar/crud.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/backpack/bg/crud.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/backpack/da_DK/crud.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/backpack/de/crud.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/backpack/el/crud.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/backpack/en/crud.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/backpack/es/crud.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/backpack/fr/crud.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/backpack/fr_CA/crud.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/backpack/it/crud.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/backpack/lv/crud.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/backpack/nl/crud.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/backpack/pt/crud.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/backpack/ro/crud.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/backpack/ru/crud.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/backpack/tr/crud.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/backpack/zh-Hant/crud.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/vendor/backpack/zh-cn/crud.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/errors/400.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/errors/400.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/errors/401.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/errors/401.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/errors/403.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/errors/403.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/errors/404.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/errors/404.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/errors/405.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/errors/405.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/errors/408.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/errors/408.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/errors/429.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/errors/429.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/errors/500.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/errors/500.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/errors/503.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/errors/503.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/errors/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/errors/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/backpack/custom.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/backpack/custom.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="desenv@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="desenv@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="desenv@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="desenv: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/backpack/base.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/site/all.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+            <state relative-caret-position="114">
+              <caret line="75" column="14" lean-forward="true" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
+              <folding>
+                <element signature="e#2124#2151#0#HTML" expanded="true" />
+                <element signature="e#3332#3359#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/site/template/layout.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="150" column="22" lean-forward="true" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
+              <folding>
+                <element signature="e#3593#4344#0#HTML" />
+                <element signature="e#4349#98888#0#HTML" />
+                <element signature="e#98893#99283#0#HTML" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/site/inc/navbar.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/site/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="200" column="34" selection-start-line="200" selection-start-column="34" selection-end-line="200" selection-end-column="34" />
+              <folding>
+                <element signature="e#382#450#0#HTML" expanded="true" />
+                <element signature="e#1191#10722#0#HTML" />
+                <element signature="e#11271#11378#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/site/components/pacote.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/site/pacotes.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="164" column="52" selection-start-line="164" selection-start-column="52" selection-end-line="164" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fill=</find>
+      <find>-m</find>
+      <find>-mt</find>
+      <find>center</find>
+      <find>pacotes</find>
+      <find>Av.</find>
+      <find>nome</find>
+      <find>top</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/app/Models/User.php" />
-        <option value="$PROJECT_DIR$/app/Models/BackpackUser.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/config/ide-helper.php" />
-        <option value="$PROJECT_DIR$/config/hashing.php" />
-        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/public/assets/inovando-wide.svg" />
+        <option value="$PROJECT_DIR$/resources/views/site/inc/newsletter.blade.php" />
+        <option value="$PROJECT_DIR$/public/packages/carousel/flick.css" />
+        <option value="$PROJECT_DIR$/public/packages/carousel/flick.js" />
+        <option value="$PROJECT_DIR$/resources/views/site/components/carousel.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_27_103222_create_contatos_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ContatoCrudController.php" />
+        <option value="$PROJECT_DIR$/resources/lang/vendor/backpack/pt_br/base.php" />
+        <option value="$PROJECT_DIR$/resources/lang/vendor/backpack/pt-br/base.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_27_103254_create_pacotes_table.php" />
+        <option value="$PROJECT_DIR$/app/Models/Brinquedo.php" />
+        <option value="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_04_10_120759_create_temas_migration.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_04_10_120811_create_brinquedos_migration.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/BrinquedoCrudController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_04_10_120811_create_brinquedos_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_04_10_120759_create_temas_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/inc/footer.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/components/tema.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/temas.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_04_16_131653_create_fotos_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/vendor/backpack/crud/list.blade.php" />
+        <option value="$PROJECT_DIR$/app/Models/Tema.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_04_16_131653_create_fotos_tema_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/vendor/backpack/crud/buttons/add_fotos.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/tema/add.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/TemaCrudController.php" />
+        <option value="$PROJECT_DIR$/app/Models/Foto.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/tema/detailsRow.blade.php" />
+        <option value="$PROJECT_DIR$/routes/backpack/custom.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/tema.blade.php" />
         <option value="$PROJECT_DIR$/config/backpack/base.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/BrinquedoRequest.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/app/Models/Pacote.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/PacoteRequest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/PacoteCrudController.php" />
+        <option value="$PROJECT_DIR$/public/css/animate.css" />
+        <option value="$PROJECT_DIR$/public/css/aos.css" />
+        <option value="$PROJECT_DIR$/public/js/aos.js" />
+        <option value="$PROJECT_DIR$/resources/views/site/pacote.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/template/layout.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/all.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/components/pacote.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/pacotes.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/fale-conosco.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/inc/navbar.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/index.blade.php" />
       </list>
     </option>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
@@ -148,19 +703,23 @@
       <path value="$PROJECT_DIR$/vendor/studio-42/elfinder" />
       <path value="$PROJECT_DIR$/vendor/league/flysystem-cached-adapter" />
       <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/cviebrock/eloquent-sluggable" />
+      <path value="$PROJECT_DIR$/vendor/cocur/slugify" />
+      <path value="$PROJECT_DIR$/vendor/yoeunes/toastr" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="955" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="542" />
+    <option name="y" value="155" />
+    <option name="width" value="1293" />
+    <option name="height" value="735" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,15 +731,39 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/packages/lightbox/js" />
+      <recent name="$PROJECT_DIR$/public/packages/lightbox/css" />
+      <recent name="$PROJECT_DIR$/resources/views/site" />
+      <recent name="$PROJECT_DIR$/public/packages" />
+      <recent name="$PROJECT_DIR$/resources/views/vendor/backpack/base" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/packages/lightbox" />
+      <recent name="$PROJECT_DIR$/resources/views/admin/tema" />
+      <recent name="$PROJECT_DIR$/public/js" />
+      <recent name="$PROJECT_DIR$/resources/views/vendor/backpack/crud" />
+      <recent name="$PROJECT_DIR$/public/assets" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -194,11 +777,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.Run Watch">
+    <configuration name="webpack.mix.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/webpack.mix.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="Run Watch" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.webpack.mix.js" />
+      <item itemvalue="npm.Run Watch" />
+      <item itemvalue="PHPUnit.phpunit.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.webpack.mix.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -210,126 +816,442 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553686628976</updated>
-      <workItem from="1553686631149" duration="2444000" />
+      <workItem from="1553686631149" duration="7957000" />
+      <workItem from="1553856583266" duration="130286000" />
+      <workItem from="1556543163144" duration="82000" />
+      <workItem from="1556543256421" duration="7295000" />
+      <workItem from="1559848565772" duration="308000" />
+      <workItem from="1562434197703" duration="5554000" />
+      <workItem from="1562612557439" duration="143000" />
+      <workItem from="1562683222663" duration="86000" />
+      <workItem from="1562777890663" duration="17985000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2444000" />
+    <option name="totallyTimeSpent" value="169696000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="953" extended-state="6" />
-    <editor active="true" />
+    <frame x="542" y="155" width="1293" height="735" extended-state="0" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17825739" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.2485482" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329849" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498779" weight="0.26485568" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.501221" side_tool="true" weight="0.38106236" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.498779" visible="true" weight="0.21306376" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.32970452" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.25659472" />
     </layout>
+    <layout-to-restore>
+      <window_info id="npm" order="0" side_tool="true" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.24969475" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.2485482" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.329849" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/site/fale-conosco.blade.php</url>
+          <line>91</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Models/BackpackUser.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/BrinquedoCrudController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="e#30#50#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="366">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/User.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_10_120811_create_brinquedos_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#23#63#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="450">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/logging.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-434" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/ide-helper.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/inc/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        <state relative-caret-position="172">
+          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/hashing.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding>
+            <element signature="e#40#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Streamline-UX-Free-Pack/Multicolor/SVG/amusement-park.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/backpack/crud/src/resources/views/buttons/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/backpack/crud/src/resources/views/buttons/preview.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="88" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/components/tema.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/temas.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_10_120759_create_temas_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_16_131653_create_fotos_tema_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/uploader-pt-BR.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_ide_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="17698" column="10" selection-start-line="17698" selection-start-column="10" selection-end-line="17698" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/backpack/crud/src/resources/views/inc/button_stack.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/FotoCrudController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-149">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/backpack/custom.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/filesystems.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/elfinder.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/vendor/backpack/crud/buttons/add_fotos.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-771" />
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/auth.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/tema/add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-460" />
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/backpack/crud.php">
+    <entry file="file://$PROJECT_DIR$/app/Models/Foto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/packages/lightbox/js/lightbox.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
+    <entry file="file://$PROJECT_DIR$/public/packages/lightbox/css/lightbox.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Tema.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="82" column="22" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
+        <state relative-caret-position="438">
+          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+          <folding>
+            <element signature="e#30#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/tema/detailsRow.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/backpack/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        <state relative-caret-position="334">
+          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Brinquedo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/BrinquedoRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/TemaCrudController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="102" column="27" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
+          <folding>
+            <element signature="e#46#66#0#PHP" expanded="true" />
+            <element signature="e#1497#1610#1#PHP" />
+            <element signature="e#1644#1718#1#PHP" />
+            <element signature="e#1752#1876#1#PHP" />
+            <element signature="e#1910#1984#1#PHP" />
+            <element signature="e#2017#2131#1#PHP" />
+            <element signature="e#2164#2288#1#PHP" />
+            <element signature="e#2321#2426#1#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/tema.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="29" column="74" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/292d99fe-ce57-47ba-a983-c19e8bf0c19f/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/vendor/backpack/crud/list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="96" column="26" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/fonts.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://292d99fe-ce57-47ba-a983-c19e8bf0c19f/schema/desenv/table/pacotes">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="ed9e5e63-63cb-46c0-a31b-41ec01975ded">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Pacote.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+          <folding>
+            <element signature="e#30#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/PacoteRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/PacoteCrudController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="3624" column="1" selection-start-line="3624" selection-start-column="1" selection-end-line="3624" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/aos.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28765" selection-start-column="28765" selection-end-column="28765" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/aos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13799" selection-start-column="13799" selection-end-column="13799" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/pacote.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="e#250#316#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../amprev-reborn/resources/views/layouts/teste-simples.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="608" column="36" selection-start-line="608" selection-start-column="33" selection-end-line="608" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/fale-conosco.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/components/pacote.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/pacotes.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="164" column="52" selection-start-line="164" selection-start-column="52" selection-end-line="164" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/all.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="75" column="14" lean-forward="true" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
+          <folding>
+            <element signature="e#2124#2151#0#HTML" expanded="true" />
+            <element signature="e#3332#3359#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/template/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="150" column="22" lean-forward="true" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
+          <folding>
+            <element signature="e#3593#4344#0#HTML" />
+            <element signature="e#4349#98888#0#HTML" />
+            <element signature="e#98893#99283#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/inc/navbar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="200" column="34" selection-start-line="200" selection-start-column="34" selection-end-line="200" selection-end-column="34" />
+          <folding>
+            <element signature="e#382#450#0#HTML" expanded="true" />
+            <element signature="e#1191#10722#0#HTML" />
+            <element signature="e#11271#11378#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

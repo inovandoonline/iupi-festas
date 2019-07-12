@@ -16,10 +16,18 @@ class Contato extends Model
     */
 
     protected $table = 'contatos';
-    // protected $primaryKey = 'id';
-    // public $timestamps = false;
+    protected $primaryKey = 'id';
+    public $timestamps = true;
     // protected $guarded = ['id'];
-    protected $fillable = [];
+    protected $fillable = [
+        'name',
+        'email',
+        'phone',
+        'text',
+        'date',
+        'refer',
+        'lida'
+    ];
     // protected $hidden = [];
     // protected $dates = [];
 

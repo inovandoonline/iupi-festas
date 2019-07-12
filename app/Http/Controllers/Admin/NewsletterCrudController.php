@@ -33,8 +33,19 @@ class NewsletterCrudController extends CrudController
         |--------------------------------------------------------------------------
         */
 
+        $this->crud->denyAccess('create');
+
         // TODO: remove setFromDb() and manually define Fields and Columns
         $this->crud->setFromDb();
+
+        $this->crud->addField([
+            'name' => 'name',
+            'label' => 'Nome'
+        ]);
+        $this->crud->addColumn([
+            'name' => 'name',
+            'label' => 'Nome'
+        ]);
 
         // add asterisk for fields that are required in NewsletterRequest
         $this->crud->setRequiredFields(StoreRequest::class, 'create');

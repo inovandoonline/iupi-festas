@@ -34,7 +34,28 @@ class BannerCrudController extends CrudController
         */
 
         // TODO: remove setFromDb() and manually define Fields and Columns
-        $this->crud->setFromDb();
+//        $this->crud->setFromDb();
+
+
+        $this->crud->addColumn([
+            'name' => 'image',
+            'label' => 'Imagem',
+            'type' => 'image'
+        ]);
+        $this->crud->addColumn([
+            'name' => 'title',
+            'label' => 'Título'
+        ]);
+
+        $this->crud->addField([
+            'name' => 'title',
+            'label' => 'Título'
+        ]);
+        $this->crud->addField([
+            'name' => 'image',
+            'label' => 'Imagem',
+            'type' => 'browse'
+        ]);
 
         // add asterisk for fields that are required in BannerRequest
         $this->crud->setRequiredFields(StoreRequest::class, 'create');

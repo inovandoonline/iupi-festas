@@ -26,7 +26,11 @@ class PacoteRequest extends FormRequest
     public function rules()
     {
         return [
-            // 'name' => 'required|min:5|max:255'
+            'title' => 'required|min:5|max:255',
+            'image' => 'required',
+            'chamada' => 'required|min:100',
+            'text' => 'required|min:300',
+            'arquivo' => 'required',
         ];
     }
 

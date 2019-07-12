@@ -16,10 +16,13 @@ class Banner extends Model
     */
 
     protected $table = 'banners';
-    // protected $primaryKey = 'id';
-    // public $timestamps = false;
+     protected $primaryKey = 'id';
+     public $timestamps = true;
     // protected $guarded = ['id'];
-    protected $fillable = [];
+    protected $fillable = [
+        'title',
+        'image'
+    ];
     // protected $hidden = [];
     // protected $dates = [];
 

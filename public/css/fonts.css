@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'proxima-soft';
+  src: url(/fonts/proxima-soft-bold.eot?2b8d884be0351ac758000665756393c0) format('eot'), url(/fonts/proxima-soft-bold.otf?6c02512a0ac0d649f4a8c59f9fd042b5) format('opentype'), url(/fonts/proxima-soft-bold.woff?9da9184e9f68f99d797f076230d8e333) format('woff'), url(/fonts/proxima-soft-bold.ttf?7ad138835c0cf9f05a9f0ab343247612) format('truetype'), url(/fonts/proxima-soft-bold.svg?40aa25b6753a2005180c16b1c102d8d4#ProximaNova-Regular) format('svg');
+}
+
+@font-face {
+  font-family: 'proxima-nova';
+  src: url(/fonts/proxima-nova.eot?8a7798b9df289e7b2464e848de707494) format('eot'), url(/fonts/proxima-nova.otf?410504d49238e955ba7dc23a7f963021) format('opentype'), url(/fonts/proxima-nova.woff?7ac315d4cad80f628e7f32f22a3b1aeb) format('woff'), url(/fonts/proxima-nova.ttf?9ba31b8f0c1479a25a2566125e83ba7b) format('truetype'), url(/fonts/proxima-nova.svg?d84c4030ef0578ddb1b4f6779a02ebac#ProximaNova-Regular) format('svg');
+}
+
+.pn {
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+}
+
+.ps-b {
+  font-family: proxima-soft, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}

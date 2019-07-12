@@ -33,8 +33,40 @@ class PacoteCrudController extends CrudController
         |--------------------------------------------------------------------------
         */
 
-        // TODO: remove setFromDb() and manually define Fields and Columns
-        $this->crud->setFromDb();
+        $this->crud->addColumn([
+            'name' => 'image',
+            'label' => 'Imagem',
+            'type' => 'image'
+        ]);
+        $this->crud->addColumn([
+            'name' => 'title',
+            'label' => 'Título'
+        ]);
+
+        $this->crud->addField([
+            'name' => 'title',
+            'label' => 'Título'
+        ]);
+        $this->crud->addField([
+            'name' => 'chamada',
+            'label' => 'Chamada',
+            'type' => 'textarea'
+        ]);
+        $this->crud->addField([
+            'name' => 'text',
+            'label' => 'Descrição',
+            'type' => 'summernote'
+        ]);
+        $this->crud->addField([
+            'name' => 'image',
+            'label' => 'Imagem',
+            'type' => 'browse'
+        ]);
+        $this->crud->addField([
+            'name' => 'arquivo',
+            'label' => 'Arquivo PDF',
+            'type' => 'browse'
+        ]);
 
         // add asterisk for fields that are required in PacoteRequest
         $this->crud->setRequiredFields(StoreRequest::class, 'create');

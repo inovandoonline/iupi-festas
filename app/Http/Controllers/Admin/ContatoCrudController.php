@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Models\Contato;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 
 // VALIDATION: change the requests to match your own file names if you need form validation
@@ -34,11 +35,47 @@ class ContatoCrudController extends CrudController
         */
 
         // TODO: remove setFromDb() and manually define Fields and Columns
-        $this->crud->setFromDb();
+
+        $this->crud->addColumn([
+           'name' => 'name',
+           'label' => 'Nome',
+        ]);
+        $this->crud->addColumn([
+            'name' => 'email',
+            'label' => 'E-mail',
+            'type' => 'email'
+        ]);
+        $this->crud->addColumn([
+            'name' => 'phone',
+            'label' => 'Telefone',
+        ]);
+        $this->crud->addColumn([
+            'name' => 'lida',
+            'label' => 'Lida',
+            'type' => 'closure',
+            'function' => function($query) {
+            if ($query->lida == 0) {
+                return "<i class='fa fa-ban' style='color: red'></i>";
+            } else {
+                return "<i class='fa fa-check-circle-o' style='color: green'></i>";
+            }
+            }
+        ]);
+
+        $this->crud->allowAccess('show');
+        $this->crud->denyAccess(['create', 'update']);
 
         // add asterisk for fields that are required in ContatoRequest
         $this->crud->setRequiredFields(StoreRequest::class, 'create');
         $this->crud->setRequiredFields(UpdateRequest::class, 'edit');
+    }
+
+    public function show($id)
+    {
+        $contato = Contato::find($id);
+        $contato->update(['lida' => 1]);
+
+        return parent::show($id);
     }
 
     public function store(StoreRequest $request)

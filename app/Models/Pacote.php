@@ -2,12 +2,14 @@
 
 namespace App\Models;
 
+use Cviebrock\EloquentSluggable\Sluggable;
+use Cviebrock\EloquentSluggable\SluggableScopeHelpers;
 use Illuminate\Database\Eloquent\Model;
 use Backpack\CRUD\CrudTrait;
 
 class Pacote extends Model
 {
-    use CrudTrait;
+    use CrudTrait, Sluggable, SluggableScopeHelpers;
 
     /*
     |--------------------------------------------------------------------------
@@ -16,10 +18,17 @@ class Pacote extends Model
     */
 
     protected $table = 'pacotes';
-    // protected $primaryKey = 'id';
-    // public $timestamps = false;
-    // protected $guarded = ['id'];
-    protected $fillable = [];
+    protected $primaryKey = 'id';
+    public $timestamps = true;
+    protected $guarded = ['id'];
+    protected $fillable = [
+        'title',
+        'image',
+        'slug',
+        'chamada',
+        'text',
+        'arquivo'
+    ];
     // protected $hidden = [];
     // protected $dates = [];
 
@@ -52,4 +61,18 @@ class Pacote extends Model
     | MUTATORS
     |--------------------------------------------------------------------------
     */
+
+    /**
+     * Return the sluggable configuration array for this model.
+     *
+     * @return array
+     */
+    public function sluggable(): array
+    {
+        return [
+            'slug' => [
+                'source' => 'title'
+            ]
+        ];
+    }
 }

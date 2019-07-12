@@ -18,6 +18,15 @@ class EventoCrudController extends CrudController
 {
     public function setup()
     {
+
+
+//        'title',
+//        'slug',
+//        'image',
+//        'date',
+//        'text',
+//        'status'
+
         /*
         |--------------------------------------------------------------------------
         | CrudPanel Basic Information
@@ -34,7 +43,64 @@ class EventoCrudController extends CrudController
         */
 
         // TODO: remove setFromDb() and manually define Fields and Columns
-        $this->crud->setFromDb();
+
+        $this->crud->addColumn([
+            'name' => 'image',
+            'label' => 'Imagem',
+            'type' => 'image'
+        ]);
+        $this->crud->addColumn([
+            'name' => 'title',
+            'label' => 'Título'
+        ]);
+        $this->crud->addColumn([
+            'name' => 'date',
+            'label' => 'Data do Evento',
+            'type' => 'date',
+        ]);
+        $this->crud->addColumn([
+            'name' => 'status',
+            'label' => 'Status',
+            'type' => 'enum'
+        ]);
+
+        $this->crud->addField([
+            'name' => 'title',
+            'label' => 'Título'
+        ]);
+        $this->crud->addField([
+            'name' => 'slug',
+            'label' => 'Slug',
+            'attributes' => [
+                'disabled'=>'disabled'
+            ]
+        ], 'update');
+        $this->crud->addField([
+            'name' => 'image',
+            'label' => 'Imagem',
+            'type' => 'browse'
+        ]);
+        $this->crud->addField([
+            'name' => 'date',
+            'label' => 'Data do Evento',
+            'type' => 'date_picker',
+            'date_picker_options' => [
+                'language' => 'pt-BR'
+            ]
+        ]);
+        $this->crud->addField([
+            'name' => 'text',
+            'label' => 'Texto',
+            'type' => 'wysiwyg'
+        ]);
+        $this->crud->addField([
+            'name' => 'status',
+            'label' => 'Status',
+            'type' => 'enum'
+        ]);
+
+//        $this->crud->allowAccess('revisions');
+//        $this->crud->with('revisionHistory');
 
         // add asterisk for fields that are required in EventoRequest
         $this->crud->setRequiredFields(StoreRequest::class, 'create');
