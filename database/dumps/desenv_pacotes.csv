@@ -1,0 +1,194 @@
+id,title,slug,image,chamada,text,arquivo,created_at,updated_at
+1,Iupi School,iupi-school,uploads/escolar.jpeg,"Se você não quer fazer uma festa grande, a opção perfeita é o pacote Iupi School!
+Ela acontece no contra período escolar! Portanto, dispensa ter de chamar a família toda, pois é uma festa para o aniversariante e seus coleguinhas 😃❗
+ Nela, a anfitriã é a criança! Além de ser uma opção bem econômica para os pais! 😉","<ul class=""list-reset"">
+    <li class=""mb-8"">
+        <h3 class=""ps-b text-purple"">Cardápio (Lanchinhos servidos à vontade):</h3>
+        <hr class=""md:opacity-0"">
+        <ul class=""list-reset"">
+            <li><h3 class=""ps-b text-blue"">Bebidas:</h3> Água mineral sem gás, suco regional (cupuaçu, acerola, goiaba, caju, graviola ou abacaxi) 2 opções, refrigerantes.</li>
+            <li><h3 class=""ps-b text-green"">Lanchonete IUPI:</h3> (Pipoca, mini pizza, mini hot dog, mini hamburguinho, crepe, algodão doce e sorvete).</li>
+        </ul>
+    </li>
+    <li class=""mb-8"">
+        <h3 class=""ps-b text-indigo"">Equipe:</h3>
+        <hr class=""md:opacity-0"">
+        <div class=""flex flex-wrap"">
+            <div class=""w-1/2"">
+                <ul class=""list-reset pr-5 md:pr-0"">
+                    <li class=""ps-b mb-1 text-pink-light"">Gerente de festa</li>
+                    <li class=""ps-b mb-1 text-blue-light"">Cozinheira</li>
+                    <li class=""ps-b mb-1 text-pink-light"">Auxiliar de cozinha</li>
+                    <li class=""ps-b mb-1 text-blue-light"">Atendentes de mesas</li>
+                </ul>
+            </div>
+            <div class=""w-1/2 border-l pl-5 md:border-none md:pl-0"">
+                <ul class=""list-reset"">
+                    <li class=""ps-b mb-1 text-pink-light"">Monitores de recreação</li>
+                    <li class=""ps-b mb-1 text-blue-light"">Recepcionista</li>
+                    <li class=""ps-b mb-1 text-pink-light"">Segurança</li>
+                    <li class=""ps-b mb-1 text-blue-light"">Auxiliar de limpeza</li>
+                </ul>
+            </div>
+        </div>
+    </li>
+    <li class=""mb-8"">
+        <h3 class=""ps-b text-aqua-light"">Condições:</h3>
+        <hr class=""md:opacity-0"">
+        <ul class=""list-reset"">
+            <li class=""ps-b mb-2 text-blue"">Festa com 04 horas de duração e mais 30 minutos de tolerância.</li>
+            <li class=""ps-b mb-2 text-pink"">Pacote mínimo para 30 convidados.</li>
+            <li class=""ps-b mb-2 text-green"">Ambiente climatizado com ar-condicionado.</li>
+            <li class=""ps-b mb-2 text-purple"">Capacidade para até 120 convidados, sendo acomodação para 100 convidados sentados.</li>
+            <li class=""ps-b mb-2 text-red"">Pacote realizado somente de 2ª a 5ª feira.</li>
+        </ul>
+    </li>
+</ul>",uploads/escolar.jpeg,2019-06-06 16:19:00,2019-07-11 02:53:03
+2,Super Iupi,super-iupi,uploads/AdobeStock_198226276_Preview.jpeg,"Se você procura uma festa em formato de coquetel, esta é a nossa melhor oferta para você! Neste pacote, nosso buffet conta com bebidas, salgadinhos e nossa lanchonete Iupi à vontade! Além do nosso incrível menu degustação 😋Se você deseja um coquetel que agrade adultos e baixinhos, acertou em cheio 🤩","<ul class=""list-reset"">
+    <li class=""mb-8"">
+        <h3 class=""ps-b text-purple"">Cardápio (Lanchinhos servidos à vontade):</h3>
+        <hr class=""md:opacity-0"">
+        <ul class=""list-reset"">
+            <li><h3 class=""ps-b text-blue"">Bebidas</h3> Água mineral sem gás, suco regional (cupuaçu, acerola, goiaba, caju, graviola ou abacaxi) 2 opções, refrigerantes.</li>
+            <li><h3 class=""ps-b text-green"">Lanchonete Iupi</h3> Pipoca, mini pizza, mini hot dog, mini hamburguinho, crepe, algodão doce e sorvete.</li>
+        </ul>
+    </li>
+    <li class=""mb-8"">
+        <h3 class=""ps-b text-red"">Menu Degustação</h3>
+        <hr class=""md:opacity-0"">
+        <ul class=""list-reset"">
+            <li>
+                <h3 class=""ps-b mt-3 mb-1 text-blue"">Festival de Pizza:</h3>
+                <span>Salgada:</span>
+                <ul>
+                    <li>Calabresa</li>
+                    <li>Quatro queijos</li>
+                    <li>Frango com Catupiry</li>
+                    <li>Portuguesa</li>
+                </ul>
+                <span>Doce:</span>
+                <ul>
+                    <li>Romeu e Julieta</li>
+                    <li>Brigadeiro</li>
+                </ul>
+            </li>
+            <li><h3 class=""ps-b mt-3 mb-1 text-green"">Festival de Massa:</h3>
+                <ul>
+                    <li>Espaguete</li>
+                    <li>Fetutine</li>
+                    <li>Penne</li>
+                </ul>
+                <small><b>Molhos: </b>Ao sugo, Branco c/queijo e Bolonhesa.</small>
+            </li>
+        </ul>
+    </li>
+    <li class=""mb-8"">
+        <h3 class=""ps-b text-indigo"">Equipe:</h3>
+        <hr class=""md:opacity-0"">
+        <div class=""flex flex-wrap"">
+            <div class=""w-1/2"">
+                <ul class=""list-reset pr-5 md:pr-0"">
+                    <li class=""ps-b mb-1 text-pink-light"">Gerente de festa</li>
+                    <li class=""ps-b mb-1 text-blue-light"">Cozinheira</li>
+                    <li class=""ps-b mb-1 text-pink-light"">Auxiliar de cozinha</li>
+                    <li class=""ps-b mb-1 text-blue-light"">Atendentes de mesas</li>
+                </ul>
+            </div>
+            <div class=""w-1/2 border-l pl-5 md:border-none md:pl-0"">
+                <ul class=""list-reset"">
+                    <li class=""ps-b mb-1 text-pink-light"">Monitores de recreação</li>
+                    <li class=""ps-b mb-1 text-blue-light"">Recepcionista</li>
+                    <li class=""ps-b mb-1 text-pink-light"">Segurança</li>
+                    <li class=""ps-b mb-1 text-blue-light"">Auxiliar de limpeza</li>
+                </ul>
+            </div>
+        </div>
+    </li>
+    <li class=""mb-8"">
+        <h3 class=""ps-b text-aqua-light"">Condições:</h3>
+        <hr class=""md:opacity-0"">
+        <ul class=""list-reset"">
+            <li class=""ps-b mb-2 text-blue"">Festa com 04 horas de duração e mais 30 minutos de tolerância.</li>
+            <li class=""ps-b mb-2 text-pink"">Pacote mínimo para 50 convidados.</li>
+            <li class=""ps-b mb-2 text-green"">Ambiente climatizado com ar-condicionado.</li>
+            <li class=""ps-b mb-2 text-purple"">Capacidade para até 120 convidados, sendo acomodação para 100 convidados sentados.</li>
+            <li class=""ps-b mb-2 text-red"">Pacote realizado somente de 2ª a 5ª feira.</li>
+            <li class=""ps-b mb-2 text-orange"">Crianças acima de 2 anos são consideradas pagantes.</li>
+        </ul>
+    </li>
+</ul>",uploads/AdobeStock_198226276_Preview.jpeg,2019-06-06 16:19:13,2019-07-11 20:33:03
+3,Mega Iupi,mega-iupi,uploads/AdobeStock_158933242_Preview.jpeg,"Uma festa completa é o que você procura? Se sim, esta é a nossa melhor oferta para você! Neste pacote, nosso buffet conta com bebidas, salgadinhos, lanchonete Iupi à vontade; Entradas, pratos quentes e duas sobremesa servidos com muito requinte! Este pacote é certeza de sucesso! 🌟","<ul class=""list-reset"">    <li class=""mb-8"">        <h3 class=""ps-b text-purple"">Cardápio (Lanchinhos servidos à vontade):</h3>        <hr class=""md:opacity-0"">        <ul class=""list-reset"">            <li><h3 class=""ps-b text-blue"">Bebidas</h3> Água mineral sem gás, suco regional (cupuaçu, acerola, goiaba, caju, graviola ou abacaxi) 2 opções, refrigerantes.</li>            <li><h3 class=""ps-b text-green"">Lanchonete Iupi</h3> Pipoca, mini pizza, mini hot dog, mini hamburguinho, crepe, algodão doce e sorvete.</li>        </ul>    </li>    <li class=""mb-8"">        <h3 class=""ps-b text-orange"">Mini Jantar</h3>        <hr class=""md:opacity-0"">        <ul style=""line-height: 2rem"">            <li class=""text-blue"">Escalopinho de mignon com molho tártaro e arroz a piamontese com queijo</li>            <li class=""text-pink"">Cubinhos de mignon com arroz e batata frita</li>            <li class=""text-green"">Estrogonofe russo com páprica defumada e arroz com crispe de batata palha</li>            <li class=""text-purple"">Filhote assado enrolado com bacon e purê cremoso de queijo</li>            <li class=""text-red"">Pescadinha grelhada com arroz cremoso de tucupi</li>            <li class=""text-orange"">Cubinhos de peixe empanado com creme de queijo e Purë</li>            <li class=""text-blue"">Camarão a provençal com massa penne a jardineira</li>            <li class=""text-pink"">Nuguetes de frango ao molho de queijo com arroz cremoso</li>            <li class=""text-green"">Porquinho agridoce com farofinha crocante</li>            <li class=""text-purple"">Risotinho cremoso com queijo e filezinho</li>            <li class=""text-red"">Risotinho cremoso com queijo e camarão rosa</li>        </ul>    </li>    <li class=""mb-8"">        <h3 class=""ps-b text-red"">Sobremesa (Escolher 2 opções)</h3>        <hr class=""md:opacity-0"">        <ul style=""line-height: 2rem"">            <li class=""text-blue"">Mousse de Frutas regionais</li>            <li class=""text-pink"">Folheado de doce de leite c/ castanha e sorvete</li>            <li class=""text-green"">Brownie com sorvete de creme</li>            <li class=""text-purple"">Taça HAPPY DAY</li>            <li class=""text-red"">Pavê de chocolate</li>            <li class=""text-orange"">Bombom na travessa</li>            <li class=""text-teal"">Brigadeiro na colher com confeitos</li>        </ul>    </li>    <li class=""mb-8"">        <h3 class=""ps-b text-indigo"">Equipe:</h3>        <hr class=""md:opacity-0"">        <div class=""flex flex-wrap"">            <div class=""w-1/2"">                <ul class=""list-reset pr-5 md:pr-0"">                    <li class=""ps-b mb-1 text-pink-light"">Gerente de festa</li>                    <li class=""ps-b mb-1 text-blue-light"">Cozinheira</li>                    <li class=""ps-b mb-1 text-pink-light"">Auxiliar de cozinha</li>                    <li class=""ps-b mb-1 text-blue-light"">Atendentes de mesas</li>                </ul>            </div>            <div class=""w-1/2 border-l pl-5 md:border-none md:pl-0"">                <ul class=""list-reset"">                    <li class=""ps-b mb-1 text-pink-light"">Monitores de recreação</li>                    <li class=""ps-b mb-1 text-blue-light"">Recepcionista</li>                    <li class=""ps-b mb-1 text-pink-light"">Segurança</li>                    <li class=""ps-b mb-1 text-blue-light"">Auxiliar de limpeza</li>                </ul>            </div>        </div>    </li>    <li class=""mb-8"">        <h3 class=""ps-b text-aqua-light"">Condições:</h3>        <hr class=""md:opacity-0"">        <ul class=""list-reset"">            <li class=""ps-b mb-2 text-blue"">Festa com 04 horas de duração e mais 30 minutos de tolerância.</li>            <li class=""ps-b mb-2 text-pink"">Pacote mínimo para 50 convidados.</li>            <li class=""ps-b mb-2 text-green"">Ambiente climatizado com ar-condicionado.</li>            <li class=""ps-b mb-2 text-purple"">Capacidade para até 120 convidados, sendo acomodação para 100 convidados sentados.</li>            <li class=""ps-b mb-2 text-red"">Pacote realizado somente de 2ª a 5ª feira.</li>            <li class=""ps-b mb-2 text-orange"">Crianças acima de 2 anos são consideradas pagantes.</li>        </ul>    </li></ul>",uploads/AdobeStock_158933242_Preview.jpeg,2019-06-06 16:19:30,2019-07-11 21:41:13
+5,Hiper Iupi,hiper-iupi,uploads/AdobeStock_198229286_Preview.jpeg,"Se você procura uma festa em formato de coquetel, esta é a nossa melhor oferta para você! Neste pacote, nosso buffet conta com bebidas, salgadinhos e nossa lanchonete Iupi à vontade! Além do nosso incrível menu degustação 😋Se você deseja um coquetel que agrade adultos e baixinhos, acertou em cheio 🤩","<ul class=""list-reset"">
+    <li class=""mb-8"">
+        <h3 class=""ps-b text-purple"">Cardápio (Lanchinhos servidos à vontade):</h3>
+        <hr class=""md:opacity-0"">
+        <ul class=""list-reset"">
+            <li><h3 class=""ps-b text-blue"">Bebidas</h3> Água mineral sem gás, suco regional (cupuaçu, acerola, goiaba, caju, graviola ou abacaxi) 2 opções, refrigerantes.</li>
+            <li><h3 class=""ps-b text-green"">Lanchonete Iupi</h3> Pipoca, mini pizza, mini hot dog, mini hamburguinho, crepe, algodão doce e sorvete.</li>
+        </ul>
+    </li>
+    <li class=""mb-8"">
+        <h3 class=""ps-b text-orange"">Mini Jantar</h3>
+        <hr class=""md:opacity-0"">
+        <ul style=""line-height: 2rem"">
+            <li class=""text-blue"">Escalopinho de mignon com molho tártaro e arroz a piamontese com queijo</li>
+            <li class=""text-pink"">Cubinhos de mignon com arroz e batata frita</li>
+            <li class=""text-green"">Estrogonofe russo com páprica defumada e arroz com crispe de batata palha</li>
+            <li class=""text-purple"">Filhote assado enrolado com bacon e purê cremoso de queijo</li>
+            <li class=""text-red"">Pescadinha grelhada com arroz cremoso de tucupi</li>
+            <li class=""text-orange"">Cubinhos de peixe empanado com creme de queijo e Purë</li>
+            <li class=""text-blue"">Camarão a provençal com massa penne a jardineira</li>
+            <li class=""text-pink"">Nuguetes de frango ao molho de queijo com arroz cremoso</li>
+            <li class=""text-green"">Porquinho agridoce com farofinha crocante</li>
+            <li class=""text-purple"">Risotinho cremoso com queijo e filezinho</li>
+            <li class=""text-red"">Risotinho cremoso com queijo e camarão rosa</li>
+        </ul>
+    </li>
+    <li class=""mb-8"">
+        <h3 class=""ps-b text-red"">Sobremesa (Escolher 2 opções)</h3>
+        <hr class=""md:opacity-0"">
+        <ul style=""line-height: 2rem"">
+            <li class=""text-blue"">Mousse de Frutas regionais</li>
+            <li class=""text-pink"">Folheado de doce de leite c/ castanha e sorvete</li>
+            <li class=""text-green"">Brownie com sorvete de creme</li>
+            <li class=""text-purple"">Taça HAPPY DAY</li>
+            <li class=""text-red"">Pavê de chocolate</li>
+            <li class=""text-orange"">Bombom na travessa</li>
+            <li class=""text-teal"">Brigadeiro na colher com confeitos</li>
+        </ul>
+    </li>
+    <li class=""mb-8"">
+        <h3 class=""ps-b text-indigo"">Equipe:</h3>
+        <hr class=""md:opacity-0"">
+        <div class=""flex flex-wrap"">
+            <div class=""w-1/2"">
+                <ul class=""list-reset pr-5 md:pr-0"">
+                    <li class=""ps-b mb-1 text-pink-light"">Gerente de festa</li>
+                    <li class=""ps-b mb-1 text-blue-light"">Cozinheira</li>
+                    <li class=""ps-b mb-1 text-pink-light"">Auxiliar de cozinha</li>
+                    <li class=""ps-b mb-1 text-blue-light"">Atendentes de mesas</li>
+                </ul>
+            </div>
+            <div class=""w-1/2 border-l pl-5 md:border-none md:pl-0"">
+                <ul class=""list-reset"">
+                    <li class=""ps-b mb-1 text-pink-light"">Monitores de recreação</li>
+                    <li class=""ps-b mb-1 text-blue-light"">Recepcionista</li>
+                    <li class=""ps-b mb-1 text-pink-light"">Segurança</li>
+                    <li class=""ps-b mb-1 text-blue-light"">Auxiliar de limpeza</li>
+                </ul>
+            </div>
+        </div>
+    </li>
+    <li class=""mb-8"">
+        <h3 class=""ps-b text-aqua-light"">Condições:</h3>
+        <hr class=""md:opacity-0"">
+        <ul class=""list-reset"">
+            <li class=""ps-b mb-2 text-blue"">Festa com 04 horas de duração e mais 30 minutos de tolerância.</li>
+            <li class=""ps-b mb-2 text-pink"">Pacote mínimo para 50 convidados.</li>
+            <li class=""ps-b mb-2 text-green"">Ambiente climatizado com ar-condicionado.</li>
+            <li class=""ps-b mb-2 text-purple"">Capacidade para até 120 convidados, sendo acomodação para 100 convidados sentados.</li>
+            <li class=""ps-b mb-2 text-red"">Pacote realizado somente de 2ª a 5ª feira.</li>
+            <li class=""ps-b mb-2 text-orange"">Crianças acima de 2 anos são consideradas pagantes.</li>
+        </ul>
+    </li>
+</ul>",uploads/AdobeStock_198229286_Preview.jpeg,2019-07-06 17:36:11,2019-07-11 21:02:01

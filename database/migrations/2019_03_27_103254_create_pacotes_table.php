@@ -19,7 +19,8 @@ class CreatePacotesTable extends Migration
             $table->string('title');
             $table->string('slug')->nullable();
             $table->string('image');
-            $table->text('text')->nullable();
+            $table->text('chamada');
+            $table->longText('text')->nullable();
             $table->string('arquivo')->nullable();
 
             $table->timestamps();

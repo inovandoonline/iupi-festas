@@ -5,7 +5,7 @@
                 <div class="ps-b text-white text-4xl mb-2">
                     {{ $pac->title }}
                 </div>
-                <p class="pn text-grey-lightest px-24">
+                <p class="pn text-grey-lightest md:px-24">
                     {!! $pac->chamada !!}
                 </p>
             </div>
