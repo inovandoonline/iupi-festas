@@ -24,11 +24,11 @@
                             {!! $pac->text !!}
                             <div class="mt-10">
                                 <h3 class="text-center text-3xl ps-b text-green">E muito mais!</h3>
-                                <h4 class="text-center ps-b text-xl mt-5 hover:bg-pink bg-aqua rounded-full shadow-md p-5">
-                                    <a target="_blank" href="{{ route('fale-conosco') }}" class="text-white">
+                                <a target="_blank" href="{{ route('fale-conosco') }}" class="text-white">
+                                    <h4 class="text-center ps-b text-xl mt-5 hover:bg-pink bg-aqua rounded-full shadow-md p-5">
                                         Peça já um orçamento 🥳
-                                    </a>
-                                </h4>
+                                    </h4>
+                                </a>
                             </div>
                         </div>
                     </div>

@@ -11,14 +11,14 @@
 @endsection
 
 @section('content')
-    <div class="w-full bg-cover bg-no-repeat bg-center md:bg-left"
-         style="background-image: url('/uploads/fale-conosco.jpeg')">
+    <div class="w-full bg-cover bg-no-repeat"
+         style="background-image: url('/uploads/imagens/fale-conosco.jpeg')">
         <div class="h-full">
             <div class="flex flex-row px-2">
                 <div class="mx-auto my-16 md:mt-32 md:ml-32 md:max-w-lg pt-6 px-4 bg-white rounded-lg shadow-lg animated fadeIn delay-1s">
                     <div class="text-center">
                         <h1 class="ps-b text-blue text-3xl md:text-4xl animated fadeInDown delay-2s">Fale Conosco</h1>
-                        <h4 class="ps-b text-pink animated fadeInDown delay-2s">Peça um orçamento sem compromisso</h4>
+                        <h4 class="ps-b text-pink animated fadeInDown delay-2s">Faça um orçamento sem compromisso</h4>
                         <img src="{{ asset('assets/mulher-suporte.png') }}" class="w-32 animated fadeInLeft delay-2s">
                         <img src="{{ asset('assets/homem-suporte.png') }}" class="w-32 animated fadeInRight delay-2s">
                     </div>
@@ -137,7 +137,7 @@
                             <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
                                 <label class="block tracking-wide text-blue-light ps-b text-md mb-2"
                                        for="grid-zip">
-                                    Data desejada 🗓
+                                    Data desejada 🗓🎯
                                 </label>
                                 <input
                                     name="date"

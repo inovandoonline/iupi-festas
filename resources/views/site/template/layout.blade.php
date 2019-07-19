@@ -5,11 +5,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="author" content="Inovando Online">
     <meta name="description" content="Iupi Festas e Eventos">
-    <meta name="keywords" content="festas eventos aniversarios crianca macapa amapa casa">
+    <meta name="keywords" content="festas eventos aniversarios criança macapa amapa casa">
     <meta name="reply-to" content="felipe@inovandoonline.com.br">
 
     <!-- Search Engine Optimization - SEO -->
-    <meta property="og:url" content="{{ url('') }}">
+    <meta property="og:url" content="{{ route('inicio') }}">
     <meta property="og:title" content="Iupi Festas e Eventos">
     <meta property="og:description" content="">
     <meta property="og:site_name" content="Iupi Festas e Eventos">
@@ -48,10 +48,8 @@
           href="{{ asset('vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.3.0/css/font-awesome.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/fonts.css') }}">
 
-    <!-- Pace.js / CSS -->
     <link rel="stylesheet" href="{{ asset('vendor/adminlte/plugins/pace/pace.min.css') }}">
 
-    <!-- Toastr / CSS -->
     @toastr_css
 
     <style id="inovando">
@@ -118,7 +116,7 @@
     </style>
     <style id="customs">
         .img-hover {
-            background-color: hsla(0, 0%, 0%, .2);
+            background-color: hsla(0, 0%, 0%, .1);
             transition: 0.5s !important;
         }
         .img-hover p{
@@ -167,7 +165,6 @@
     //     autoPlay: true
     // })
 </script>
-<!-- Toastr / JS -->
 @toastr_js
 @toastr_render
 

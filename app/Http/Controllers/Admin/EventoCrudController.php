@@ -2,12 +2,16 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Models\Evento;
+use App\Models\Foto;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 
 // VALIDATION: change the requests to match your own file names if you need form validation
 use App\Http\Requests\EventoRequest as StoreRequest;
 use App\Http\Requests\EventoRequest as UpdateRequest;
 use Backpack\CRUD\CrudPanel;
+use File;
+use Illuminate\Http\Request;
 
 /**
  * Class EventoCrudController
@@ -42,7 +46,10 @@ class EventoCrudController extends CrudController
         |--------------------------------------------------------------------------
         */
 
-        // TODO: remove setFromDb() and manually define Fields and Columns
+        $this->crud->addButtonFromView('line', 'addFotos', 'add_fotos', 'beginning');
+
+        $this->crud->enableDetailsRow();
+        $this->crud->allowAccess('details_row');
 
         $this->crud->addColumn([
             'name' => 'image',
@@ -107,8 +114,45 @@ class EventoCrudController extends CrudController
         $this->crud->setRequiredFields(UpdateRequest::class, 'edit');
     }
 
+    public function addImg($id)
+    {
+        return view('admin.tema.add', compact('id'));
+    }
+
+    public function saveFotos(Request $request, $id)
+    {
+        $tema = Evento::all()->find($id)->title;
+        $dir = "uploads/eventos/".$tema.'/';
+        $file = $request->file('imagens')->getClientOriginalName();
+        $dest = $dir.$file;
+        $move = move_uploaded_file($request->file('imagens'), $dest);
+
+        if ($move) {
+            Foto::create([
+                'tema_id' => $id,
+                'imagem' => $dest
+            ]);
+        } else {
+            return response()->json([
+                'Error' => 'Árquivo não deve ultrapassar 2mb'
+            ], 300);
+        }
+
+        return response()->json([
+            'response' => 'Sucesso!'
+        ], 200);
+    }
+    public function showDetailsRow($id)
+    {
+        $all = Evento::all()->find($id)->fotos;
+        return view('admin.evento.detailsRow', compact('all'));
+    }
     public function store(StoreRequest $request)
     {
+        $title = $request->title;
+        if (!File::exists(public_path('uploads/eventos/').$title)) {
+            File::makeDirectory(public_path('uploads/eventos/').$title, 0775);
+        }
         // your additional operations before save here
         $redirect_location = parent::storeCrud($request);
         // your additional operations after save here

@@ -98,7 +98,7 @@ class TemaCrudController extends CrudController
     public function saveFotos(Request $request, $id)
     {
         $tema = Tema::all()->find($id)->title;
-        $dir = "uploads/temas/".$tema.'/';
+        $dir = "uploads/eventos/".$tema.'/';
         $file = $request->file('imagens')->getClientOriginalName();
         $dest = $dir.$file;
         $move = move_uploaded_file($request->file('imagens'), $dest);

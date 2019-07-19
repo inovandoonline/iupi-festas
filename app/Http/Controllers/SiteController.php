@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Banner;
+use App\Models\Brinquedo;
 use App\Models\Contato;
 use App\Models\Evento;
 use App\Models\Newsletter;
@@ -32,6 +33,17 @@ class SiteController extends Controller
     {
         $tema = Tema::findBySlug($slug);
         return view('site.tema', compact('tema'));
+    }
+
+    public function eventosPage(Evento $temas)
+    {
+        return view('site.eventos', compact('temas'));
+    }
+
+    public function eventosViewPage($slug)
+    {
+        $tema = Evento::findBySlug($slug);
+        return view('site.evento', compact('tema'));
     }
 
     public function pacotesPage(Pacote $pacotes)
@@ -71,6 +83,11 @@ class SiteController extends Controller
         return back()->withErrors($validator->errors())->withInput();
     }
 
+    public function brinquedosPage()
+    {
+        $brinquedos = Brinquedo::all();
+        return view('site.brinquedos', compact('brinquedos'));
+    }
     public function faleConoscoPage()
     {
         return view('site.fale-conosco');

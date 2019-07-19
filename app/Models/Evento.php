@@ -55,7 +55,10 @@ class Evento extends Model
     | RELATIONS
     |--------------------------------------------------------------------------
     */
-
+    public function fotos()
+    {
+        return $this->hasMany(Foto::class, 'tema_id');
+    }
     /*
     |--------------------------------------------------------------------------
     | SCOPES

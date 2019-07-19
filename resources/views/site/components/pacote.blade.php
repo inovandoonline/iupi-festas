@@ -1,4 +1,4 @@
-<div class="my-3 md:my-6 mx-2 shadow-lg rounded overflow-hidden" data-aos="zoom-in">
+<div class="my-3 md:my-6 mx-2 shadow-lg rounded overflow-hidden">
     <div class="bg-no-repeat bg-center bg-cover" style="background-image: url({{$pac->image}});">
         <div class="img-hover text-center" onclick="showText(this)">
             <div class="px-6 py-4 pt-20">

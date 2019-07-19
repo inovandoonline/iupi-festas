@@ -2,23 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fc4c409-0279-4cab-b24c-152b9cb60c40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/site.webmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/evento/add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/evento/detailsRow.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/brinquedos.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/components/brinquedo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/components/evento.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/evento.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/eventos.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_27_103254_create_pacotes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_27_103254_create_pacotes_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/EventoCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/EventoCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/TemaCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/TemaCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Evento.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Evento.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/packages/lightbox/js/lightbox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/packages/lightbox/js/lightbox.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/23DB97FA-58A5-4B96-B7C6-C9F83F1C5DF4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/500_F_224166295_RYmCRs30pzijhRuctYv5EIjzxszA4s9L.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/500_F_238713213_oNdy9JkkmHlwKSRGM14ui0dElypaiQIM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/500_F_65137052_hOyBv4RYuqjDshdHxSjfv06ODRWeDM0k.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/500_F_90670578_sYTnFsIWJym2Sq1w2ikr0SmwhlpX5y2o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/500_F_93663579_DphiiqBLvUzk1E5pkE6mLQCKLyAvsamv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/53745143_326363231570430_2649919784834448182_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/54446882_1171772326337187_2559700498868226665_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/AdobeStock_158933242_Preview.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/AdobeStock_198226276_Preview.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/AdobeStock_198229286_Preview.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/AdobeStock_221845974_Preview.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/AdobeStock_273718165_Preview.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/AdobeStock_71033033_Preview.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/amg.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/escolar.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/fale-conosco-2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/fale-conosco.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/mundokids.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/temas/MICKEY REALEZA/23DB97FA-58A5-4B96-B7C6-C9F83F1C5DF4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/temas/MICKEY REALEZA/WhatsApp Image 2019-04-15 at 11.02.33.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/temas/MICKEY REALEZA/WhatsApp Video 2019-04-15 at 11.03.31.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/temas/MICKEY REALEZA/amg.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/temas/MICKEY REALEZA/teste.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/all.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/all.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/site/components/pacote.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/components/pacote.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/fale-conosco.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/fale-conosco.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/inc/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/inc/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/inc/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/inc/navbar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/site/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/pacote.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/pacote.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/site/template/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/template/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,31 +89,42 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="desenv: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Iupi Umbler" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Iupi Umbler" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Iupi Umbler" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="desenv.iupi.db: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
+        <entry file="file://$PROJECT_DIR$/resources/views/site/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="45">
+              <caret line="3" column="93" selection-start-line="3" selection-start-column="93" selection-end-line="3" selection-end-column="93" />
+              <folding>
+                <element signature="e#910#10786#0#HTML" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/site/all.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1815">
+              <caret line="121" column="74" selection-start-line="121" selection-start-column="74" selection-end-line="121" selection-end-column="74" />
+              <folding>
+                <element signature="e#2124#2149#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://292d99fe-ce57-47ba-a983-c19e8bf0c19f/schema/desenv/table/pacotes">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="5d0af8a6-eafc-4d19-be71-76c6d91049b9">
+              <filtering>
+                <filter text="" />
+              </filtering>
             </state>
           </provider>
         </entry>
@@ -91,21 +132,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/site/components/pacote.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="47" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="47" />
+            <state>
+              <caret column="64" selection-start-column="64" selection-end-column="64" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/site/pacotes.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#9130#0#Blade" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/site/template/layout.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#style#1;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#style#2;n#head#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/site/eventos.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="248" column="50" selection-start-line="248" selection-start-column="50" selection-end-line="248" selection-end-column="50" />
+              <folding>
+                <element signature="e#359#15872#0#HTML" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/site/index.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/site/evento.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-              <folding>
-                <element signature="e#391#479#0#HTML" expanded="true" />
-                <element signature="e#11315#11403#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="450">
+              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -131,9 +209,14 @@
       <find>nome</find>
       <find>top</find>
       <find>unlicensed</find>
+      <find>Peç</find>
+      <find>img-</find>
+      <find>image</find>
+      <find>lazy</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/resources/views/site</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -142,57 +225,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/packages/carousel/flick.css" />
-        <option value="$PROJECT_DIR$/public/packages/carousel/flick.js" />
-        <option value="$PROJECT_DIR$/resources/views/site/components/carousel.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_27_103222_create_contatos_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ContatoCrudController.php" />
-        <option value="$PROJECT_DIR$/resources/lang/vendor/backpack/pt_br/base.php" />
-        <option value="$PROJECT_DIR$/resources/lang/vendor/backpack/pt-br/base.php" />
-        <option value="$PROJECT_DIR$/app/Models/Brinquedo.php" />
-        <option value="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_04_10_120759_create_temas_migration.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_10_120811_create_brinquedos_migration.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/BrinquedoCrudController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_10_120811_create_brinquedos_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_10_120759_create_temas_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/site/inc/footer.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/resources/views/site/components/tema.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/site/temas.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_16_131653_create_fotos_table.php" />
         <option value="$PROJECT_DIR$/resources/views/vendor/backpack/crud/list.blade.php" />
         <option value="$PROJECT_DIR$/app/Models/Tema.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_16_131653_create_fotos_tema_table.php" />
         <option value="$PROJECT_DIR$/resources/views/vendor/backpack/crud/buttons/add_fotos.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/tema/add.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/TemaCrudController.php" />
         <option value="$PROJECT_DIR$/app/Models/Foto.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/tema/detailsRow.blade.php" />
         <option value="$PROJECT_DIR$/routes/backpack/custom.php" />
         <option value="$PROJECT_DIR$/resources/views/site/tema.blade.php" />
         <option value="$PROJECT_DIR$/config/backpack/base.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/BrinquedoRequest.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/app/Models/Pacote.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/PacoteRequest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/PacoteCrudController.php" />
         <option value="$PROJECT_DIR$/public/css/animate.css" />
         <option value="$PROJECT_DIR$/public/css/aos.css" />
         <option value="$PROJECT_DIR$/public/js/aos.js" />
-        <option value="$PROJECT_DIR$/resources/views/site/pacote.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/site/all.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/site/pacotes.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/site/fale-conosco.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/site/inc/navbar.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_03_27_103254_create_pacotes_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/site/template/layout.blade.php" />
         <option value="$PROJECT_DIR$/vendor/backpack/crud/src/CrudUsageStats.php" />
         <option value="$PROJECT_DIR$/vendor/backpack/base/src/BaseServiceProvider.php" />
         <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/resources/views/site/components/brinquedo.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/pacote.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/brinquedos.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/fale-conosco.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/TemaCrudController.php" />
+        <option value="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php" />
+        <option value="$PROJECT_DIR$/app/Models/Evento.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/EventoCrudController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/evento/detailsRow.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/components/evento.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/eventos.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/inc/navbar.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/inc/footer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/template/layout.blade.php" />
+        <option value="$PROJECT_DIR$/public/packages/lightbox/js/lightbox.min.js" />
         <option value="$PROJECT_DIR$/resources/views/site/components/pacote.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/all.blade.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/resources/views/site/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/evento.blade.php" />
       </list>
     </option>
   </component>
@@ -311,11 +394,11 @@
       <path value="$PROJECT_DIR$/vendor/yoeunes/toastr" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="237" />
-    <option name="y" value="182" />
-    <option name="width" value="1333" />
-    <option name="height" value="792" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="64" />
+    <option name="y" value="150" />
+    <option name="width" value="1151" />
+    <option name="height" value="626" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -330,6 +413,24 @@
               <item name="iupi-festas" type="b2602c69:ProjectViewProjectNode" />
               <item name="iupi-festas" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="iupi-festas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iupi-festas" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iupi-festas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iupi-festas" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iupi-festas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iupi-festas" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -343,29 +444,32 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/site" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/public/packages/lightbox" />
-      <recent name="$PROJECT_DIR$/resources/views/admin/tema" />
-      <recent name="$PROJECT_DIR$/public/js" />
-      <recent name="$PROJECT_DIR$/resources/views/vendor/backpack/crud" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/packages/lightbox/js" />
       <recent name="$PROJECT_DIR$/public/packages/lightbox/css" />
       <recent name="$PROJECT_DIR$/resources/views/site" />
       <recent name="$PROJECT_DIR$/public/packages" />
       <recent name="$PROJECT_DIR$/resources/views/vendor/backpack/base" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/site" />
+      <recent name="$PROJECT_DIR$/resources/views/site/components" />
+      <recent name="$PROJECT_DIR$/resources/views/admin" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/packages/lightbox" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -427,7 +531,8 @@
       <workItem from="1562434197703" duration="5554000" />
       <workItem from="1562612557439" duration="143000" />
       <workItem from="1562683222663" duration="86000" />
-      <workItem from="1562777890663" duration="21400000" />
+      <workItem from="1562777890663" duration="21866000" />
+      <workItem from="1563480228338" duration="11876000" />
     </task>
     <task id="LOCAL-00001" summary="Preparação para Deploy">
       <created>1562893537032</created>
@@ -436,17 +541,24 @@
       <option name="project" value="LOCAL" />
       <updated>1562893537032</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Preparação para Deploy - 2">
+      <created>1562899514847</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562899514847</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173111000" />
+    <option name="totallyTimeSpent" value="185453000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="237" y="182" width="1333" height="792" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="971" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28350115" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14041515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -461,12 +573,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.501221" side_tool="true" weight="0.38106236" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.498779" visible="true" weight="0.3342857" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.498779" weight="0.33333334" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32970452" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.24864446" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.12087912" />
     </layout>
     <layout-to-restore>
       <window_info id="npm" order="0" side_tool="true" />
@@ -498,7 +610,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Preparação para Deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Preparação para Deploy" />
+    <MESSAGE value="Preparação para Deploy - 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Preparação para Deploy - 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -512,160 +625,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/backpack/custom.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/vendor/backpack/crud/buttons/add_fotos.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/tema/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Foto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/packages/lightbox/js/lightbox.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/packages/lightbox/css/lightbox.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Tema.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
-          <folding>
-            <element signature="e#30#72#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/tema/detailsRow.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/backpack/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Brinquedo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/BrinquedoRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/TemaCrudController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="102" column="27" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
-          <folding>
-            <element signature="e#46#66#0#PHP" expanded="true" />
-            <element signature="e#1497#1610#1#PHP" />
-            <element signature="e#1644#1718#1#PHP" />
-            <element signature="e#1752#1876#1#PHP" />
-            <element signature="e#1910#1984#1#PHP" />
-            <element signature="e#2017#2131#1#PHP" />
-            <element signature="e#2164#2288#1#PHP" />
-            <element signature="e#2321#2426#1#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/tema.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="29" column="74" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/292d99fe-ce57-47ba-a983-c19e8bf0c19f/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/vendor/backpack/crud/list.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="96" column="26" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Pacote.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-          <folding>
-            <element signature="e#30#72#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/PacoteRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/PacoteCrudController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/animate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="3624" column="1" selection-start-line="3624" selection-start-column="1" selection-end-line="3624" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/aos.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28765" selection-start-column="28765" selection-end-column="28765" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/aos.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -673,52 +632,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/pacote.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding>
-            <element signature="e#250#316#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../amprev-reborn/resources/views/layouts/teste-simples.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="608" column="36" selection-start-line="608" selection-start-column="33" selection-end-line="608" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/fale-conosco.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/pacotes.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="164" column="52" selection-start-line="164" selection-start-column="52" selection-end-line="164" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/all.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="75" column="14" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
-          <folding>
-            <element signature="e#2124#2151#0#HTML" expanded="true" />
-            <element signature="e#3332#3359#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/inc/navbar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -751,18 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/template/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-          <folding>
-            <element signature="e#3593#4344#0#HTML" />
-            <element signature="e#4349#98888#0#HTML" />
-            <element signature="e#98893#99283#0#HTML" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://292d99fe-ce57-47ba-a983-c19e8bf0c19f/schema/desenv/table/banners">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="ed9e5e63-63cb-46c0-a31b-41ec01975ded">
@@ -790,24 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://292d99fe-ce57-47ba-a983-c19e8bf0c19f/schema/desenv/table/eventos">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="ed9e5e63-63cb-46c0-a31b-41ec01975ded">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://292d99fe-ce57-47ba-a983-c19e8bf0c19f/schema/desenv/table/fotos-tema">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="ed9e5e63-63cb-46c0-a31b-41ec01975ded">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://292d99fe-ce57-47ba-a983-c19e8bf0c19f/schema/desenv/table/migrations">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="ed9e5e63-63cb-46c0-a31b-41ec01975ded">
@@ -818,15 +705,6 @@
       </provider>
     </entry>
     <entry file="das://292d99fe-ce57-47ba-a983-c19e8bf0c19f/schema/desenv/table/newsletters">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="ed9e5e63-63cb-46c0-a31b-41ec01975ded">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://292d99fe-ce57-47ba-a983-c19e8bf0c19f/schema/desenv/table/pacotes">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="ed9e5e63-63cb-46c0-a31b-41ec01975ded">
           <filtering>
@@ -853,15 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://292d99fe-ce57-47ba-a983-c19e8bf0c19f/schema/desenv/table/temas">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="ed9e5e63-63cb-46c0-a31b-41ec01975ded">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://292d99fe-ce57-47ba-a983-c19e8bf0c19f/schema/desenv/table/users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="ed9e5e63-63cb-46c0-a31b-41ec01975ded">
@@ -880,28 +749,297 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/Streamline-UX-Free-Pack/Multicolor/SVG/amusement-park.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Brinquedo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/components/brinquedo.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="72" lean-forward="true" selection-start-line="1" selection-start-column="72" selection-end-line="1" selection-end-column="72" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/fale-conosco.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="e#394#453#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/brinquedos.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="83" selection-start-line="6" selection-start-column="83" selection-end-line="6" selection-end-column="83" />
+          <folding>
+            <element signature="e#358#10266#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/tema/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/eventos/Aniversário da Catarina/04.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="das://292d99fe-ce57-47ba-a983-c19e8bf0c19f/schema/desenv/table/eventos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="5d0af8a6-eafc-4d19-be71-76c6d91049b9">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://292d99fe-ce57-47ba-a983-c19e8bf0c19f/schema/desenv/table/temas">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="5d0af8a6-eafc-4d19-be71-76c6d91049b9">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://292d99fe-ce57-47ba-a983-c19e8bf0c19f/schema/desenv/table/fotos-tema">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="5d0af8a6-eafc-4d19-be71-76c6d91049b9">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/TemaCrudController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="86" column="4" lean-forward="true" selection-start-line="86" selection-start-column="4" selection-end-line="90" selection-end-column="5" />
+          <folding>
+            <element signature="e#46#66#0#PHP" expanded="true" />
+            <element signature="e#1497#1610#1#PHP" />
+            <element signature="e#1644#1718#1#PHP" />
+            <element signature="e#1752#1876#1#PHP" />
+            <element signature="e#1910#1984#1#PHP" />
+            <element signature="e#2017#2131#1#PHP" />
+            <element signature="e#2164#2288#1#PHP" />
+            <element signature="e#2321#2426#1#PHP" />
+            <element signature="e#2811#2904#0#PHP" />
+            <element signature="e#2910#3571#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/tema/detailsRow.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#blockquote#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#blockquote#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/evento/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Tema.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Evento.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="57" column="27" lean-forward="true" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/evento/detailsRow.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#blockquote#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#blockquote#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#blockquote#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Streamline-UX-Free-Pack/Multicolor/SVG/dj-booth.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/EventoCrudController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="147" column="33" selection-start-line="147" selection-start-column="33" selection-end-line="147" selection-end-column="33" />
+          <folding>
+            <element signature="e#46#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/components/evento.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/pacote.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/packages/lightbox/js/lightbox.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="354" selection-start-line="13" selection-start-column="354" selection-end-line="13" selection-end-column="354" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/inc/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="61" column="152" selection-start-line="61" selection-start-column="152" selection-end-line="61" selection-end-column="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/inc/navbar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="140" selection-start-line="29" selection-start-column="140" selection-end-line="29" selection-end-column="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://292d99fe-ce57-47ba-a983-c19e8bf0c19f/schema/desenv/table/pacotes">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="5d0af8a6-eafc-4d19-be71-76c6d91049b9">
+          <filtering>
+            <filter text="" />
+          </filtering>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/site/components/pacote.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="47" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="47" />
+        <state>
+          <caret column="64" selection-start-column="64" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/pacotes.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#9130#0#Blade" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/all.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1815">
+          <caret line="121" column="74" selection-start-line="121" selection-start-column="74" selection-end-line="121" selection-end-column="74" />
+          <folding>
+            <element signature="e#2124#2149#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/site/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        <state relative-caret-position="45">
+          <caret line="3" column="93" selection-start-line="3" selection-start-column="93" selection-end-line="3" selection-end-column="93" />
           <folding>
-            <element signature="e#391#479#0#HTML" expanded="true" />
-            <element signature="e#11315#11403#0#HTML" expanded="true" />
+            <element signature="e#910#10786#0#HTML" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/template/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#1;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#2;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/eventos.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="248" column="50" selection-start-line="248" selection-start-column="50" selection-end-line="248" selection-end-column="50" />
+          <folding>
+            <element signature="e#359#15872#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/evento.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
         </state>
       </provider>
     </entry>

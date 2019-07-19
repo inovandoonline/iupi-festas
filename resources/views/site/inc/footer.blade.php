@@ -28,8 +28,9 @@
         <div class="sm:flex-1 md:w-3/5 text-center my-auto">
             <div class="invisible md:visible">
                 <a href="{{ route('inicio') }}" class="text-aqua-light mx-4 hover:text-white">Início</a>
-                <a href="{{ route('temas') }}" class="text-aqua-light mx-4 hover:text-white">Temas</a>
-                <a href="/#" class="text-aqua-light mx-4 hover:text-white">Brinquedos</a>
+{{--                <a href="{{ route('temas') }}" class="text-aqua-light mx-4 hover:text-white">Temas</a>--}}
+                <a href="{{ route('eventos') }}" class="text-aqua-light mx-4 hover:text-white">Eventos</a>
+                <a href="{{ route('brinquedos') }}" class="text-aqua-light mx-4 hover:text-white">Brinquedos</a>
                 <a href="{{ route('pacotes') }}" class="text-aqua-light mx-4 hover:text-white">Pacotes</a>
                 <a href="{{ route('fale-conosco') }}" class="text-aqua-light mx-4 hover:text-white">Fale Conosco</a>
                 <p class="hidden md:block pt-3 text-aqua-light leading-normal">
@@ -57,8 +58,9 @@
             </div>
             <ul class="md:hidden list-reset pb-6">
                 <li class="py-2"><a href="{{ route('inicio') }}" class="text-aqua-light mx-4 hover:text-white hover:border-b hover:border-grey">Início</a></li>
-                <li class="py-2"><a href="{{ route('temas') }}" class="text-aqua-light mx-4 hover:text-white hover:border-b hover:border-grey">Temas</a></li>
-                <li class="py-2"><a href="#" class="text-aqua-light mx-4 hover:text-white hover:border-b hover:border-grey">Brinquedos</a></li>
+{{--                <li class="py-2"><a href="{{ route('temas') }}" class="text-aqua-light mx-4 hover:text-white hover:border-b hover:border-grey">Temas</a></li>--}}
+                <li class="py-2"><a href="{{ route('eventos') }}" class="text-aqua-light mx-4 hover:text-white hover:border-b hover:border-grey">Eventos</a></li>
+                <li class="py-2"><a href="{{ route('brinquedos') }}" class="text-aqua-light mx-4 hover:text-white hover:border-b hover:border-grey">Brinquedos</a></li>
                 <li class="py-2"><a href="{{ route('pacotes') }}" class="text-aqua-light mx-4 hover:text-white hover:border-b hover:border-grey">Pacotes</a></li>
                 <li class="py-2"><a href="{{ route('fale-conosco') }}" class="text-aqua-light mx-4 hover:text-white hover:border-b hover:border-grey">Fale Conosco</a></li>
             </ul>

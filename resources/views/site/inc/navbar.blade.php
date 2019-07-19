@@ -9,7 +9,8 @@
     <div class="flex-1 text-white md:text-right md:px-32 my-auto">
         <a href="{{ route('inicio') }}" class="navg ps-b text-md hidden md:inline-block text-grey-dark mx-4 hover:text-blue hover:border-b hover:border-grey">Início</a>
 {{--        <a href="{{ route('temas') }}" class="navg ps-b text-md hidden md:inline-block text-grey-dark mx-4 hover:text-pink hover:border-b hover:border-grey">Temas</a>--}}
-{{--        <a href="#" class="navg ps-b text-md hidden md:inline-block text-grey-dark mx-4 hover:text-green hover:border-b hover:border-grey">Brinquedos</a>--}}
+        <a href="{{ route('eventos') }}" class="navg ps-b text-md hidden md:inline-block text-grey-dark mx-4 hover:text-pink hover:border-b hover:border-grey">Eventos</a>
+        <a href="{{ route('brinquedos') }}" class="navg ps-b text-md hidden md:inline-block text-grey-dark mx-4 hover:text-green hover:border-b hover:border-grey">Brinquedos</a>
         <a href="{{ route('pacotes') }}" class="navg ps-b text-md hidden md:inline-block text-grey-dark mx-4 hover:text-indigo hover:border-b hover:border-grey">Pacotes</a>
         <a href="{{ route('fale-conosco') }}" class="navg ps-b text-md hidden md:inline-block text-grey-dark mx-4 hover:text-red hover:border-b hover:border-grey">Fale Conosco</a>
     </div>
@@ -22,11 +23,14 @@
         <div class="flex-1 py-1">
             <a data-color="blue" href="{{ route('inicio') }}" class="navg ps-b text-md inline-block mx-4 text-xl text-blue">Início</a>
         </div>
+{{--        <div class="flex-1 py-1">--}}
+{{--            <a data-color="pink" href="{{ route('temas') }}" class="navg ps-b text-md inline-block mx-4 text-xl text-pink">Temas</a>--}}
+{{--        </div>--}}
+                <div class="flex-1 py-1">
+                    <a data-color="pink" href="{{ route('eventos') }}" class="navg ps-b text-md inline-block mx-4 text-xl text-pink">Eventos</a>
+                </div>
         <div class="flex-1 py-1">
-            <a data-color="pink" href="{{ route('temas') }}" class="navg ps-b text-md inline-block mx-4 text-xl text-pink">Temas</a>
-        </div>
-        <div class="flex-1 py-1">
-            <a data-color="green" href="#" class="navg ps-b text-md inline-block mx-4 text-xl text-green">Brinquedos</a>
+            <a data-color="green" href="{{ route('brinquedos') }}" class="navg ps-b text-md inline-block mx-4 text-xl text-green">Brinquedos</a>
         </div>
         <div class="flex-1 py-1">
             <a data-color="indigo" href="{{ route('pacotes') }}" class="navg ps-b text-md inline-block mx-4 text-xl text-indigo">Pacotes</a>

@@ -2,9 +2,6 @@
 
 @section('css')
     {{--<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">--}}
-    <style>
-
-    </style>
 @endsection
 
 @section('js')
@@ -14,8 +11,8 @@
     <div class="flex flex-wrap flex-col">
         <div class="flex-1">
             <div class="bg-no-repeat bg-center bg-cover md:py-32"
-                 style="background-image: url({{ asset('uploads/AdobeStock_158933242_Preview.jpeg') }});">
-                <div class="cape h-full w-full py-32">
+                 style="background-image: url({{ asset('uploads/imagens/143.jpg') }});">
+                <div class="cape h-full w-full py-16">
                     <div class="container md:py-32 px-2 md:pl-32">
                         <div class="py-6 max-w-sm">
                         </div>
@@ -196,8 +193,8 @@
             </div>
         </div>
         <div id="newsletter" class="flex-1 text-center lg:-mb-10">
-            <div class="bg-no-repeat bg-center bg-cover shadow-inner"
-                 style="background-image: url({{ asset('uploads/AdobeStock_221845974_Preview.jpeg') }});">
+            <div class="bg-no-repeat bg-center bg-cover lg:bg-fixed shadow-inner"
+                 style="background-image: url({{ asset('uploads/imagens/segunda_imagem.jpg') }});">
                 <div class="py-32">
                     <div data-aos="fade-up" class="shadow-lg pattern-bg bg-white py-4 md:py-10 px-6 rounded-lg w-5/6 sm:w-3/5 mx-auto">
                         <h2 class="ps-b text-2xl md:text-3xl text-blue">

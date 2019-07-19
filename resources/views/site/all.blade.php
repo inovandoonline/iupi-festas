@@ -16,28 +16,58 @@
 
 <ul class="list-reset">
     <li class="mb-8">
-        <h3 class="ps-b text-purple">Cardápio (Lanchinhos servidos à vontade):</h3>
+        <h3 class="ps-b text-purple">Cardápio (servidos à vontade):</h3>
         <hr class="md:opacity-0">
         <ul class="list-reset">
-            <li><h3 class="ps-b text-blue">Bebidas</h3> Água mineral sem gás, suco regional (cupuaçu, acerola, goiaba, caju, graviola ou abacaxi) 2 opções, refrigerantes.</li>
-            <li><h3 class="ps-b text-green">Lanchonete Iupi</h3> Pipoca, mini pizza, mini hot dog, mini hamburguinho, crepe, algodão doce e sorvete.</li>
+            <li class="text-grey-darker"><h3 class="ps-b text-blue">Bebidas:</h3> Água mineral sem gás, suco regional (cupuaçu, acerola, goiaba, caju, graviola ou abacaxi) 2 opções, refrigerantes.</li>
+            <li class="text-grey-darker"><h3 class="ps-b text-green">Lanchonete Iupi:</h3> Pipoca, mini pizza, mini hot dog, mini hamburguinho, crepe, algodão doce e sorvete.</li>
+            <li class="text-grey-darker"><h3 class="ps-b text-orange">Entrada:</h3> Mini pão de queijo, canapês de peito de peru defumado, mini brusquetas e quiche de camarão.</li>
+            <li class="text-grey-darker"><h3 class="ps-b text-red">Salgadinhos:</h3> Coxinha de frango; pastel de carne, canudinho de frango, risole de queijo e presunto de peru, quibe, bolinho de maniçoba, queijo e bacalhau, empada de frango e esfirra de carne</li>
         </ul>
     </li>
     <li class="mb-8">
-        <h3 class="ps-b text-orange">Mini Jantar</h3>
+        <h3 class="ps-b text-orange">Pratos Principais (Escolherá duas opções)</h3>
         <hr class="md:opacity-0">
         <ul style="line-height: 2rem">
-            <li class="text-blue">Escalopinho de mignon com molho tártaro e arroz a piamontese com queijo</li>
-            <li class="text-pink">Cubinhos de mignon com arroz e batata frita</li>
-            <li class="text-green">Estrogonofe russo com páprica defumada e arroz com crispe de batata palha</li>
-            <li class="text-purple">Filhote assado enrolado com bacon e purê cremoso de queijo</li>
-            <li class="text-red">Pescadinha grelhada com arroz cremoso de tucupi</li>
-            <li class="text-orange">Cubinhos de peixe empanado com creme de queijo e Purë</li>
-            <li class="text-blue">Camarão a provençal com massa penne a jardineira</li>
-            <li class="text-pink">Nuguetes de frango ao molho de queijo com arroz cremoso</li>
-            <li class="text-green">Porquinho agridoce com farofinha crocante</li>
-            <li class="text-purple">Risotinho cremoso com queijo e filezinho</li>
-            <li class="text-red">Risotinho cremoso com queijo e camarão rosa</li>
+            <li>
+                <h3 class="text-blue ps-b">Peixe</h3>
+                <ul class="pn text-grey-darker">
+                    <li>Pescada Amarela c/crosta de castanha do Pará e Purê de macaxeira cremoso c/ queijo regional, acompanha arroz com açafrão e farofa de banana da terra.</li>
+                    <li>Filhote gratinado, coberto com molho bechamel, duo de queijo regional levado ao forno para gratinar.
+                        Arroz branco com salsa</li>
+                    <li>Pescada/filhote grelhado molho reduzido de taperebá acompanha purê de banana da terra e arroz com chicória.</li>
+                    <li>Bacalhau a espanholaLascas de bacalhau no azeite, com legumes salteados e azeitonas, levados ao forno com ervas aromáticas.</li>
+                </ul>
+            </li>
+            <li>
+                <h3 class="text-pink ps-b">Camarão</h3>
+                <ul class="pn text-grey-darker">
+                    <li>Bobó de Camarão rosa na moranga, acompanha arroz branco e farofa de banana da terra</li>
+                    <li>Camarão rosa grelhado, flambados c/ risoto italiano c/ervas e limão siciliano.</li>
+                </ul>
+            </li>
+            <li>
+                <h3 class="text-green ps-b">Carne</h3>
+                <ul class="pn text-grey-darker">
+                    <li>Escalopinhos de Mignom c/ molho Roti e massa italiana ao creme de palmito de pupunha com queijo regional gratinado.</li>
+                    <li>Medalhão de mignom grelhado, molho ao vinho glaceado, pimenta negra e arroz a piamontese.<br>
+                        Batatinhas rusticas.</li>
+                    <li>Risoto ao tomate seco com cortes de mignon.</li>
+                    <li>Filezinho com arroz, batata frita e farofa.</li>
+                </ul>
+            </li>
+            <li>
+                <h3 class="text-purple ps-b">Frango</h3>
+                <ul class="pn text-grey-darker">
+                    <li>Frango empanado com creme de queijo, arroz e forofa.</li>
+                </ul>
+            </li>
+            <li>
+                <h3 class="text-red ps-b">Suíno</h3>
+                <ul class="pn text-grey-darker">
+                    <li>Filezinho de porco grelhado com molho barbecue, arroz com açafrão e farofa.</li>
+                </ul>
+            </li>
         </ul>
     </li>
     <li class="mb-8">
