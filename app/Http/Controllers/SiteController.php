@@ -111,6 +111,7 @@ class SiteController extends Controller
         if ($validator->passes()) {
             Contato::create($request->all());
             toastr()->success('Em breve lhe retornaremos', 'Recebemos seu contato!');
+            return back();
         }
 
         toastr()->error('Verifique se os campos estão corretos!', 'Whoops!');

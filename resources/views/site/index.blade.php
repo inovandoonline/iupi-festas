@@ -11,7 +11,7 @@
     <div class="flex flex-wrap flex-col">
         <div class="flex-1">
             <div class="bg-no-repeat bg-center bg-cover md:py-32"
-                 style="background-image: url({{ asset('uploads/imagens/143.jpg') }});">
+                 style="background-image: url({{ asset('uploads/imagens/iupi.jpg') }});">
                 <div class="cape h-full w-full py-16">
                     <div class="container md:py-32 px-2 md:pl-32">
                         <div class="py-6 max-w-sm">
